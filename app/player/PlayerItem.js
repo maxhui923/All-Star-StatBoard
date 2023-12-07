@@ -12,7 +12,7 @@ const PlayerItem = ({
         <h2>{`${player.first_name} ${player.last_name}`}</h2>
         <p>Position: {player.position}</p>
         <p>
-          Height: {player.height_feet}'{player.height_inches}"
+          Height: {player.height_feet}&#39;{player.height_inches}&quot;
         </p>
         <p>Weight: {player.weight_pounds} lbs</p>
         <p>Team: {player.team.full_name}</p>

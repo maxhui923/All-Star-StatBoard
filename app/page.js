@@ -12,6 +12,7 @@ export default function Home() {
       src="/nba-logo.png"
       width={200}
       height={300}
+      alt=""
     />
     </main>
     
